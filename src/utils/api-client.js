@@ -1,5 +1,6 @@
 import axios from "axios";
+import config from "../config.json";
 
 export default axios.create({
-  baseURL: "https://cartwish-backend-vy2i.onrender.com",
+  baseURL: `${config.backendURL}/api`,
 });
