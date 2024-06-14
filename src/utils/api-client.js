@@ -1,6 +1,5 @@
 import axios from "axios";
 
-
 export default axios.create({
-    baseURL: 'http://localhost:5000/api'
-})
+  baseURL: "https://cartwish-backend-vy2i.onrender.com",
+});
